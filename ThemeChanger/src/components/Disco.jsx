@@ -12,7 +12,7 @@ const Disco = () => {
     const interval = setInterval(() => {
       const random = colors[Math.floor(Math.random() * colors.length)];
       setColor(random);
-    },1000); 
+    },3000); 
 
     return () => clearInterval(interval); 
   }, []);
